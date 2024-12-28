@@ -1,6 +1,5 @@
 const User = require('../models/userModels.js');
 const generateToken = require('../utils/generateToken.js');
-// const bcrypt = require('bcryptjs');
 const bcrypt = require('bcryptjs');
 
 const loginUser = async(req, res) => {

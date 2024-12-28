@@ -7,8 +7,8 @@ const dotenv = require('dotenv');
 
 // importing db config and routes
 const connectDB = require('./Config/db.js');
-const authRoutes = require('./Routes/authRoutes.js');
-const todoRoutes = require('./routes/todoRoutes.js');
+const authRoutes = require('./Route/authRoutes.js');
+const todoRoutes = require('./Route/todoRoutes.js');
 
 
 // app config
