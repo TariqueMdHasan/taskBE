@@ -8,7 +8,7 @@ const { deleteTodo } = require('../controllers/deleteTodo.js');
 
 router.get('/task', protect, getTodo);
 router.post('/task', protect, createTodo);
-router.put('/task/edit/:id', protect, updateTodo);
-router.delete('/task/delete/:id', protect, deleteTodo);
+router.put('/task/edit/:todoId', protect, updateTodo);
+router.delete('/task/delete/:todoId', protect, deleteTodo);
 
 module.exports = router;
